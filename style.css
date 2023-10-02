@@ -1,0 +1,113 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    font-family: Ubuntu;
+    height: 2cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+a {
+    font-family: "Rasa Light";
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #f9b200;
+}
+
+.full-width {
+    width: 100%;
+    height: auto;
+}
+
+.cadranContact {
+    background-color: gray;
+    height: 95vh;
+    width: 30vw;
+}
+
+.cadranHardRock {
+    position: relative;
+}
+
+.textHours {
+    margin-left: 0.9cm;
+    width: 22cm;
+    max-height: 13cm;
+    overflow-y: scroll;
+}
+
+
+.cadranContact {
+    background-color: rgba(255, 255, 255, 0.89);
+    height: 110vh;
+    width: 30vw;
+    position: absolute;
+    top: 24px;
+    left: 33.3cm;
+}
+
+
+.events{
+    display: flex;
+    justify-content: center;
+}
+
+
+.events > img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 10cm;
+}
+
+.cadranHours {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cadranHours  {
+    font-size: 15px;
+}
+
+.cadranHours p {
+    color: gray;
+}
+
+.hoursBlack > img {
+    margin-right: 0.5cm;
+    height: 14.5cm;
+    width: 10.8cm;
+}
+
+h2 {
+    font-family: Ubuntu;
+    color: #c82641;
+    text-align: center;
+    margin-top: 2cm;
+}
+
+h3 {
+    font-family: Ubuntu;
+}
+
+.hautLeft img {
+    height: 10cm;
+    width: 15cm;
+}
+
+
+
+
