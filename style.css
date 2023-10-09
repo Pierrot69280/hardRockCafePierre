@@ -5,6 +5,7 @@ html, body {
 }
 
 .navBar {
+    background-color: white;
     font-family: Ubuntu;
     height: 2cm;
     display: flex;
@@ -12,7 +13,12 @@ html, body {
     align-items: center;
     padding-left: 15vw;
     padding-right: 15vw;
+    position: fixed;
+    width: 80%;
+    z-index: 1000;
 }
+
+
 
 a {
     font-family: "Rasa Light";
@@ -33,12 +39,7 @@ a:hover {
 
 .cadranContact {
     background-color: gray;
-    height: 95vh;
     width: 30vw;
-}
-
-.cadranHardRock {
-    position: relative;
 }
 
 .textHours {
@@ -51,10 +52,10 @@ a:hover {
 
 .cadranContact {
     background-color: rgba(255, 255, 255, 0.89);
-    height: 110vh;
+    height: 105vh;
     width: 30vw;
     position: absolute;
-    top: 24px;
+    top: 85px;
     left: 33.3cm;
 }
 
@@ -107,6 +108,152 @@ h3 {
     height: 10cm;
     width: 15cm;
 }
+
+.hautLeft {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hautRight img {
+    height: 10cm;
+    width: 15cm;
+}
+
+.hautRight {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hautParty {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2cm;
+    margin-right: 7.5cm;
+    margin-left: 7.5cm;
+}
+
+
+.basLeft img {
+    height: 10cm;
+    width: 15cm;
+}
+
+.basLeft {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.basRight img {
+    height: 10cm;
+    width: 15cm;
+}
+
+.basRight {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.basParty {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5cm;
+    margin-right: 7.5cm;
+    margin-left: 7.5cm;
+}
+
+.buttonUn{
+    transition: 0.5s;
+    font-family: Ubuntu;
+    background-color: #f9b200;
+    color: black;
+    border: none;
+    height: 1.5cm;
+    width: 5cm;
+}
+
+.buttonUn:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+.buttons {
+    margin-top: 1cm;
+}
+
+.buttonDeux{
+    transition: 0.5s;
+    font-family: Ubuntu;
+    background-color: #c82540;
+    color: white;
+    border: none;
+    height: 1.5cm;
+    width: 5cm;
+}
+
+.buttonDeux:hover{
+    transition: 0.5s;
+    background-color: #f9b200 ;
+    color: black;
+}
+
+
+.cadran {
+    margin-top: 2cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.bestOf {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6cm;
+    margin-left: 6cm;
+}
+
+.event {
+    margin-top: 2cm;
+    margin-left: 6.6cm;
+}
+
+.text {
+    color: white;
+}
+
+.text h1 {
+    font-family: Ubuntu;
+    font-size: 150px;
+}
+
+.text h3 {
+    font-family: Ubuntu;
+    font-size: 30px;
+}
+
+.text button {
+    width: 20cm;
+}
+
+
+
+
+
+
 
 
 
