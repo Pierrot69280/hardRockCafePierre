@@ -25,15 +25,17 @@ html, body {
 
 
 .cadranResa {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
     margin-top: 1cm;
     margin-left: 0.9cm;
-    height: 14cm;
     width: 13cm;
     background-color: white;
 }
 
 .cadranRouge {
-    margin-top: 1cm;
+    margin-top: -0.6cm;
     height: 5cm;
     width: 13cm;
     background-color: #c82540;
@@ -52,6 +54,89 @@ html, body {
     align-items: center;
     text-align: center;
 }
+
+.heure {
+    margin-left: 1.4cm;
+}
+
+
+
+.buttonsResa {
+    text-align: center;
+}
+
+.buttonResa {
+    margin-top: 10px;
+    border-radius: 9%;
+    font-family: Ubuntu;
+    background-color: #c82540;
+    color: white;
+    border: none;
+    height: 1cm;
+    width: 2cm;
+    transition: 0.5s;
+}
+
+.buttonResa:hover {
+    transition: 0.5s;
+    background-color: #731f2d;
+}
+
+.cadranBlanc > p {
+    font-family: Ubuntu;
+}
+
+
+.buttonHaut{
+    margin-left: 5cm;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 1em;
+    transition: 0.5s;
+    font-family: Ubuntu;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 1.3cm;
+    width: 4.5cm;
+}
+
+.buttonHaut:hover{
+    transition: 0.5s;
+    background-color: #c82540 ;
+    color: white;
+}
+
+.buttonBas {
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 1em;
+    transition: 0.5s;
+    font-family: Ubuntu;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 1.3cm;
+    width: 4.5cm;
+}
+
+
+.buttonsDuBas {
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 5px;
+}
+
+.buttonBas:hover{
+    transition: 0.5s;
+    background-color: #c82540 ;
+    color: white;
+}
+
+
 
 a {
     font-family: "Rasa Light";
@@ -81,6 +166,7 @@ a:hover {
     max-height: 13cm;
     overflow-y: scroll;
 }
+
 
 
 .cadranContact {
@@ -293,7 +379,7 @@ h3 {
 .reseaux {
     display: flex;
     justify-content: space-between;
-    margin-top: 50%;
+    margin-top: 40%;
 }
 
 .facebook>i{
@@ -314,7 +400,6 @@ h3 {
 
 .booking {
     font-family: Ubuntu;
-    margin-top: 1cm;
     display: flex;
     justify-content: center;
 }
@@ -340,12 +425,147 @@ h3 {
 }
 
 
+.imageLetsTalk {
+    display: flex;
+    justify-content: center;
+    margin-top: 2cm;
+    height:12cm;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.cadranLetsTalk {
+    margin-top: 20px;
+    position: absolute;
+    background-color: white;
+    opacity: 90%;
+    width: 35cm;
+    height: 11cm;
+}
+
+
+.titreTalk {
+    font-size: 2.1em;
+    font-family: Ubuntu;
+    margin-left: 4cm;
+}
+
+.titreTalk > h1 {
+    color: #c82540;
+}
+
+.logoHard {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 23cm;
+}
+
+
+.followUs > img {
+    height: 2cm;
+    width: 36.7cm;
+
+}
+
+
+.followUs {
+    margin-top: 2cm;
+    margin-left: 5.9cm;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.followUsText {
+    font-family: Ubuntu;
+    font-size: 2em;
+    margin-top: -0.3cm;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    padding: 10px;
+}
+
+.instaAvant {
+    gap: 2cm;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+
+.burgerAvant > img {
+    height: 10cm;
+    width:11cm;
+}
+
+.dixAvant > img {
+    height: 10cm;
+    width:11cm;
+}
+
+.sodaAvant > img {
+    height: 10cm;
+    width:11cm;
+}
 
 
 
 
 
+.logosMarque {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tripadvisor > img{
+    height: 250px;
+}
+
+.onlyLyon > img{
+    height: 250px;
+}
+
+.hardRockCafeLyonMarque > img {
+    height: 250px;
+}
+
+
+.basPage {
+    background-image: url("Images/cadreBas.png");
+    height: 300px;
+}
+
+.elementsBasPage {
+    font-size: 2em;
+    color: white;
+}
+
+.elementsBasPage > img{
+
+    height: 200px;
+}
+
+.infoEnPlus {
+    display: flex;
+    gap: 10px;
+}
+
+
+.element > h3 {
+    color: white;
+}
 
 
 
+.fin {
+    font-family: Ubuntu;
+    text-align: center;
+}
 
