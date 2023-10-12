@@ -36,11 +36,24 @@ html, body {
 
 .cadranRouge {
     margin-top: -0.6cm;
-    height: 5cm;
+    height: 6cm;
     width: 13cm;
     background-color: #c82540;
 }
 
+.selectGuest, .selectDate{
+    margin-left: 10px;
+    width: 12cm;
+    height: 1cm;
+    background-color: #9d1d32;
+    border: none;
+    border-radius: 3%;
+    color: white;
+}
+
+.selectDate {
+    margin-top: 10px;
+}
 
 .cadranRouge h3 {
     font-size: 1.3em;
@@ -500,23 +513,44 @@ img {
 
 
 
-.burgerAvant > img {
+.burgerAvant {
+    background-image: url("Images/burgerAvant.png");
     height: 10cm;
     width:11cm;
+    background-size:contain;
+    background-repeat: no-repeat;
+
 }
 
-.dixAvant > img {
+.burgerAvant:hover {
+
+    background-image: url("Images/burgerApres.png");
+}
+
+.dixAvant {
+    background-image: url("Images/dixAvant.png");
     height: 10cm;
     width:11cm;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 
-.sodaAvant > img {
+.dixAvant:hover {
+    background-image: url("Images/dixApres.png");
+}
+
+
+.sodaAvant {
+    background-image: url("Images/sodaAvant.png");
     height: 10cm;
     width:11cm;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 
-
-
+.sodaAvant:hover {
+    background-image: url("Images/sodaApres.png");
+}
 
 
 .logosMarque {
@@ -538,6 +572,8 @@ img {
 
 
 .basPage {
+    display: flex;
+    justify-content: space-evenly;
     background-image: url("Images/cadreBas.png");
     height: 300px;
 }
@@ -558,8 +594,36 @@ img {
 }
 
 
+.reseauxSociaux {
+    margin-right: 10cm;
+    margin-top: 100px;
+    color: white;
+}
+
+.resauxLogo {
+    display: flex;
+    gap: 5px;
+
+}
+
+.textBasRight {
+    color: white;
+    font-family: Ubuntu;
+    font-size: 0.9em;
+}
+
+.resauxLogo > img {
+    height: 30px;
+    border-radius: 10%;
+}
+
 .element > h3 {
     color: white;
+}
+
+.textBasRight > p:hover {
+    border-bottom: 2px solid white;
+    width: 150px;
 }
 
 
@@ -568,4 +632,6 @@ img {
     font-family: Ubuntu;
     text-align: center;
 }
+
+
 
